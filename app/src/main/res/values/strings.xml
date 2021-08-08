@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Muhanned Task</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="google_company">Google company</string>
+    <string name="london_uk">London - Uk</string>
+    <string name="postdate_format_dd_mm_yyyy">Postdate (Format: dd/MM/yyyy)</string>
+    <string name="company">Company :</string>
+    <string name="job_location">Job Location :</string>
+    <string name="publish_date">Publish date :</string>
+    <string name="job_title">Job title :</string>
+
+</resources>

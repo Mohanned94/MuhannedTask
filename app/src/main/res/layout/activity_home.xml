@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Postion:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etBypostion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:background="@drawable/edit_text_shape"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:textColor="#FFFFFF">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Location:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etBylocation"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:ems="10"
+        android:imeOptions="actionSearch"
+        android:background="@drawable/edit_text_shape"
+        android:inputType="textAutoComplete|textAutoCorrect"
+        android:textColor="#FFFFFF">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:text="Search"
+        android:id="@+id/bnSearch"
+        android:layout_margin="@dimen/_20sdp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvJobsfinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/border_shape"
+    android:layout_margin="@dimen/_10sdp"
+    >
+
+    <ImageView
+        android:id="@+id/imgJob"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="@dimen/_20sdp"
+
+        android:src="@drawable/jobs_image" />
+
+    <TextView
+        android:id="@+id/tvJobtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp" />
+
+    <TextView
+        android:id="@+id/tvCompanyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/google_company"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+
+    <TextView
+        android:id="@+id/tvJoblocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/london_uk"
+        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+
+    <TextView
+        android:id="@+id/tvPostdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postdate_format_dd_mm_yyyy"
+        android:textColor="@color/black"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        />
+</LinearLayout>
